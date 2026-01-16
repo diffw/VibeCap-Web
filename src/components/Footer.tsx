@@ -1,8 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import { LanguageSwitcher } from './LanguageSwitcher';
+
+const basePath = process.env.NODE_ENV === 'production' ? '/VibeCap-Web' : '';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -13,11 +14,9 @@ export function Footer() {
       <div className="max-w-3xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <Image
-              src="/logo.svg"
+            <img
+              src={`${basePath}/logo.svg`}
               alt="VibeCap"
-              width={80}
-              height={20}
               className="h-5 w-auto opacity-50"
             />
             <span className="text-xs text-stone-400">

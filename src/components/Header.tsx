@@ -1,8 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import { LanguageSwitcher } from './LanguageSwitcher';
+
+const basePath = process.env.NODE_ENV === 'production' ? '/VibeCap-Web' : '';
 
 export function Header() {
   const t = useTranslations('nav');
@@ -14,13 +15,10 @@ export function Header() {
           href="#" 
           className="hover:opacity-70 transition-opacity duration-300"
         >
-          <Image
-            src="/logo.svg"
+          <img
+            src={`${basePath}/logo.svg`}
             alt="VibeCap"
-            width={100}
-            height={24}
             className="h-6 w-auto"
-            priority
           />
         </a>
         
