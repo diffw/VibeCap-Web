@@ -3,8 +3,6 @@
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
-const basePath = process.env.NODE_ENV === 'production' ? '/VibeCap-Web' : '';
-
 export function Footer() {
   const t = useTranslations('footer');
   const currentYear = new Date().getFullYear();
@@ -15,7 +13,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <img
-              src={`${basePath}/logo.svg`}
+              src="/logo.svg"
               alt="VibeCap"
               className="h-5 w-auto opacity-50"
             />

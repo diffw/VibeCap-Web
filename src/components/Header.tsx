@@ -3,8 +3,6 @@
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
-const basePath = process.env.NODE_ENV === 'production' ? '/VibeCap-Web' : '';
-
 export function Header() {
   const t = useTranslations('nav');
 
@@ -16,7 +14,7 @@ export function Header() {
           className="hover:opacity-70 transition-opacity duration-300"
         >
           <img
-            src={`${basePath}/logo.svg`}
+            src="/logo.svg"
             alt="VibeCap"
             className="h-6 w-auto"
           />
