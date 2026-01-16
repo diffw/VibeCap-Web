@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "VibeCap — 提升你的 Vibe Coding 效率",
+    "description": "专为 vibe coding 打造的截图工具。截图、标注、发送到编辑器，一气呵成。"
+  },
+  "hero": {
+    "badge": "专为 vibe coding 打造",
+    "headline": "提升你的 vibe coding 效率",
+    "subheadline": "从修复截图方式开始",
+    "cta": "下载 macOS 版",
+    "ctaNote": "macOS 13.0+ · Apple Silicon"
+  },
+  "problems": {
+    "title": "截图为什么会拖慢你",
+    "subtitle": "macOS 的截图功能很强大。但当你开始 vibe coding 时，它就变成了阻力。",
+    "items": [
+      {
+        "title": "截图消失得太快",
+        "description": "你截了图。如果不能立刻抓住它、拖到输入框里，它就没了。然后你得翻文件夹找。那一刻的心流，已经断了。"
+      },
+      {
+        "title": "跨窗口拖拽截图很脆弱",
+        "description": "就算你抓住了截图，还得跨屏幕拖、找到正确的窗口、瞄准正确的输入框。一次没对准，又得重来。"
+      },
+      {
+        "title": "多张截图意味着重复的痛苦",
+        "description": "需要一起发送两三张截图？你得重复同样的步骤：截图 → 抓取 → 拖拽 → 放下。很慢。每次都把你从思考中拉出来。"
+      },
+      {
+        "title": "标注功能有，但帮不上忙",
+        "description": "macOS 的标注工具能用。但它们不是为「向编辑器解释问题」设计的：切换工具、点击小按钮、没有上下文地标记。"
+      }
+    ]
+  },
+  "solution": {
+    "title": "VibeCap 带来的改变",
+    "subtitle": "VibeCap 不是要取代你的编辑器。它修复的是「和编辑器对话之前」的那一刻。",
+    "flow": {
+      "step1": "截取一张或多张截图",
+      "step2": "可选择标注重点",
+      "step3": "写下你的提示词或指令",
+      "step4": "一次性发送到编辑器"
+    },
+    "benefits": [
+      "不用和消失的预览赛跑",
+      "不用跨窗口拖拽",
+      "不用把同样的动作重复三遍"
+    ]
+  },
+  "workflow": {
+    "title": "为 vibe coding 工作流而生",
+    "description": "VibeCap 理解 vibe coding 的真实工作方式：你不想解释所有事情。你想展示，然后说几句话。",
+    "highlight": "图片 + 文字 + 目标编辑器",
+    "note": "就在你还沉浸在上下文中的那一刻。"
+  },
+  "features": {
+    "title": "核心功能",
+    "items": [
+      {
+        "title": "快速截图",
+        "points": ["全局快捷键", "选择任意屏幕或显示器", "精确截取你看到的内容"]
+      },
+      {
+        "title": "一次截取多张",
+        "points": ["截取多张图片", "保持它们在一起", "一起发送"]
+      },
+      {
+        "title": "简单标注",
+        "points": ["标记重要区域", "轻松指出问题", "没有复杂工具，没有干扰"]
+      },
+      {
+        "title": "提示词 + 图片，一起发送",
+        "points": ["写下你的提示词或指令", "图片和文字同时进入编辑器", "无需手动粘贴，无需重新排序"]
+      },
+      {
+        "title": "为编辑器而生",
+        "points": ["与现代编程工具自然协作", "无需注册账号", "无需依赖云端"]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "定价",
+    "subtitle": "一个工具，两种付费方式。",
+    "description": "选择适合你工作方式的关系。",
+    "oneTime": {
+      "title": "一次性购买",
+      "price": "$39",
+      "note": "一次付费",
+      "features": [
+        "完整使用所有核心功能",
+        "当前主版本内免费更新",
+        "无需续费"
+      ],
+      "footer": "买了就是你的。",
+      "cta": "立即购买"
+    },
+    "subscription": {
+      "title": "订阅",
+      "price": "$2.99",
+      "note": "/ 月",
+      "features": [
+        "完整使用所有功能",
+        "包含未来主版本更新",
+        "随时取消"
+      ],
+      "footer": "适合偏好将工具视为持续支出的团队或个人。",
+      "cta": "订阅"
+    },
+    "footnote": "没有功能差异。只是不同的付费方式。"
+  },
+  "closing": {
+    "title": "为减少阻力而生，而非堆砌功能",
+    "description": "VibeCap 不想变得聪明。它只想在你需要的那一刻，可靠地出现。",
+    "highlight": "这就是让 vibe coding 更顺畅的原因。",
+    "note": "这也是为什么这个小工具，最终能带来大改变。"
+  },
+  "footer": {
+    "tagline": "VibeCap",
+    "description": "专为 vibe coding 打造的截图工具。",
+    "copyright": "© {year} VibeCap. 保留所有权利。",
+    "legal": {
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    }
+  },
+  "nav": {
+    "features": "功能",
+    "pricing": "定价",
+    "download": "下载"
+  }
+}

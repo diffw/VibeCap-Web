@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VibeCap — Official Website
 
-## Getting Started
+A minimalist, typography-driven landing page for VibeCap, a macOS screenshot tool designed for vibe coding.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS 4
+- **i18n**: next-intl
+- **Deployment**: Vercel / Cloudflare Pages
+
+## Supported Languages
+
+1. English (default)
+2. 简体中文
+3. 繁體中文
+4. 日本語
+5. 한국어
+6. Español
+7. Français
+8. Deutsch
+9. Português
+10. Русский
+
+## Project Structure
+
+```
+vibecap-web/
+├── messages/           # Translation JSON files
+│   ├── en.json
+│   ├── zh.json
+│   └── ...
+├── src/
+│   ├── app/
+│   │   └── [locale]/   # Locale-aware routing
+│   ├── components/     # Reusable UI components
+│   ├── sections/       # Page sections
+│   └── i18n/          # Internationalization config
+├── public/            # Static assets
+└── vercel.json        # Deployment config
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Vercel (Recommended)
 
-## Deploy on Vercel
+```bash
+vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Cloudflare Pages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+# Deploy the .next folder
+```
+
+## Design System
+
+### Colors
+
+- `--color-ink`: #1a1a1a (primary text)
+- `--color-ink-muted`: #4a4a4a (secondary text)
+- `--color-ink-subtle`: #7a7a7a (tertiary text)
+- `--color-paper`: #fafaf8 (background)
+- `--color-paper-warm`: #f5f4f0 (warm sections)
+- `--color-accent`: #c4a67c (accent)
+- `--color-border`: #e8e6e1 (borders)
+
+### Typography
+
+- Font: SF Pro Display (system fallback)
+- Line height: 1.6
+- Letter spacing: -0.01em
+
+### Animation
+
+- Duration: 300-700ms
+- Easing: cubic-bezier(0.16, 1, 0.3, 1)
+- Effects: opacity, translateY (±8px)
+
+## License
+
+MIT

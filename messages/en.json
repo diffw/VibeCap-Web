@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "VibeCap — Boost Your Vibe Coding",
+    "description": "A screenshot tool built specifically for vibe coding. Capture, annotate, and send to your editor in one flow."
+  },
+  "hero": {
+    "badge": "Built for vibe coding",
+    "headline": "Boost your vibe coding",
+    "subheadline": "by fixing the way you take screenshots",
+    "cta": "Download for macOS",
+    "ctaNote": "macOS 13.0+ · Apple Silicon"
+  },
+  "problems": {
+    "title": "Why screenshots slow you down today",
+    "subtitle": "macOS screenshots are powerful. But once you start vibe coding, they become friction.",
+    "items": [
+      {
+        "title": "The screenshot disappears before you're ready",
+        "description": "You take a screenshot. If you don't grab it immediately and drop it into the input box in time, it's gone. Now you're digging through folders. That moment of flow is already broken."
+      },
+      {
+        "title": "Moving screenshots across windows is fragile",
+        "description": "Even if you catch the screenshot, you still have to drag it across screens, find the right window, aim for the right input box. Miss once, and you're retrying."
+      },
+      {
+        "title": "Multiple screenshots mean repeated pain",
+        "description": "Need to send two or three screenshots together? You repeat the same steps again and again: capture → grab → drag → drop. It's slow. And it pulls you out of your thinking every time."
+      },
+      {
+        "title": "Annotation exists, but doesn't help much",
+        "description": "macOS annotation tools technically work. But they're not designed for explaining problems to an editor: switching tools, clicking tiny buttons, marking without context."
+      }
+    ]
+  },
+  "solution": {
+    "title": "What VibeCap changes",
+    "subtitle": "VibeCap is not a replacement for your editor. It fixes the moment before you talk to it.",
+    "flow": {
+      "step1": "Capture one or multiple screenshots",
+      "step2": "Optionally annotate what matters",
+      "step3": "Write your prompt or instruction",
+      "step4": "Send everything to your editor — once"
+    },
+    "benefits": [
+      "No racing against disappearing previews",
+      "No dragging across windows",
+      "No repeating the same action three times"
+    ]
+  },
+  "workflow": {
+    "title": "Built for vibe coding workflows",
+    "description": "VibeCap understands how vibe coding actually works: You don't want to explain everything. You want to show, then say a few words.",
+    "highlight": "image(s) + text + destination editor",
+    "note": "At the moment you're still in context."
+  },
+  "features": {
+    "title": "Core features",
+    "items": [
+      {
+        "title": "Fast capture",
+        "points": ["Global shortcut", "Select any screen or monitor", "Capture exactly what you see"]
+      },
+      {
+        "title": "Multiple screenshots in one flow",
+        "points": ["Capture more than one image", "Keep them together", "Send them together"]
+      },
+      {
+        "title": "Simple annotation",
+        "points": ["Mark areas that matter", "Point without overworking", "No heavy tools, no distractions"]
+      },
+      {
+        "title": "Prompt + image, sent together",
+        "points": ["Write your prompt or instruction", "Image(s) and text go into the editor at the same time", "No manual pasting, no re-ordering"]
+      },
+      {
+        "title": "Editor-friendly by design",
+        "points": ["Works naturally with modern coding tools", "No account required", "No cloud dependency"]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "One tool. Two ways to pay.",
+    "description": "Choose the relationship that fits how you work.",
+    "oneTime": {
+      "title": "One-time purchase",
+      "price": "$39",
+      "note": "pay once",
+      "features": [
+        "Full access to all core features",
+        "Free updates within the current major version",
+        "No recurring fees"
+      ],
+      "footer": "You buy it. It's yours.",
+      "cta": "Buy Now"
+    },
+    "subscription": {
+      "title": "Subscription",
+      "price": "$2.99",
+      "note": "/ month",
+      "features": [
+        "Full access to all features",
+        "Includes future major updates",
+        "Cancel anytime"
+      ],
+      "footer": "For teams or individuals who prefer ongoing tooling budgets.",
+      "cta": "Subscribe"
+    },
+    "footnote": "No feature differences. Just different ways to pay."
+  },
+  "closing": {
+    "title": "Built to remove friction, not add features",
+    "description": "VibeCap doesn't try to be smart. It tries to be reliable at the exact moment you need it.",
+    "highlight": "That's what makes vibe coding smoother.",
+    "note": "And that's why this small tool ends up making a big difference."
+  },
+  "footer": {
+    "tagline": "VibeCap",
+    "description": "A screenshot tool built specifically for vibe coding.",
+    "copyright": "© {year} VibeCap. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms"
+    }
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "download": "Download"
+  }
+}
