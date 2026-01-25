@@ -1,10 +1,12 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import Link from 'next/link';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
 export function Footer() {
   const t = useTranslations('footer');
+  const locale = useLocale();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -23,12 +25,12 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="/privacy" className="text-xs text-stone-400 hover:text-stone-600 transition-colors duration-300">
+            <Link href={`/${locale}/privacy`} className="text-xs text-stone-400 hover:text-stone-600 transition-colors duration-300">
               {t('legal.privacy')}
-            </a>
-            <a href="/terms" className="text-xs text-stone-400 hover:text-stone-600 transition-colors duration-300">
+            </Link>
+            <Link href={`/${locale}/terms`} className="text-xs text-stone-400 hover:text-stone-600 transition-colors duration-300">
               {t('legal.terms')}
-            </a>
+            </Link>
             <LanguageSwitcher direction="up" />
           </div>
         </div>

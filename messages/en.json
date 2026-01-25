@@ -58,23 +58,43 @@
     "items": [
       {
         "title": "Fast capture",
-        "points": ["Global shortcut", "Select any screen or monitor", "Capture exactly what you see"]
+        "points": [
+          "Global shortcut",
+          "Select any screen or monitor",
+          "Capture exactly what you see"
+        ]
       },
       {
         "title": "Multiple screenshots in one flow",
-        "points": ["Capture more than one image", "Keep them together", "Send them together"]
+        "points": [
+          "Capture more than one image",
+          "Keep them together",
+          "Send them together"
+        ]
       },
       {
         "title": "Simple annotation",
-        "points": ["Mark areas that matter", "Point without overworking", "No heavy tools, no distractions"]
+        "points": [
+          "Mark areas that matter",
+          "Point without overworking",
+          "No heavy tools, no distractions"
+        ]
       },
       {
         "title": "Prompt + image, sent together",
-        "points": ["Write your prompt or instruction", "Image(s) and text go into the editor at the same time", "No manual pasting, no re-ordering"]
+        "points": [
+          "Write your prompt or instruction",
+          "Image(s) and text go into the editor at the same time",
+          "No manual pasting, no re-ordering"
+        ]
       },
       {
         "title": "Editor-friendly by design",
-        "points": ["Works naturally with modern coding tools", "No account required", "No cloud dependency"]
+        "points": [
+          "Works naturally with modern coding tools",
+          "No account required",
+          "No cloud dependency"
+        ]
       }
     ]
   },
@@ -127,5 +147,200 @@
     "features": "Features",
     "pricing": "Pricing",
     "download": "Download"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy — VibeCap",
+      "description": "VibeCap Privacy Policy - Learn how we protect your data"
+    },
+    "effectiveDate": "Effective Date: January 2026",
+    "sections": {
+      "overview": {
+        "title": "Overview",
+        "content": [
+          "VibeCap is a macOS menu bar application designed to help users capture screenshots and quickly paste them into other applications, such as code editors or chat tools.",
+          "**VibeCap does not collect, store, transmit, or share any personal data.**",
+          "All operations are performed locally on your device."
+        ]
+      },
+      "dataCollection": {
+        "title": "Data Collection",
+        "intro": "**We do not collect any personal information or usage data.**",
+        "specifically": "Specifically:",
+        "items": [
+          "We do **not** collect screenshots",
+          "We do **not** collect clipboard contents",
+          "We do **not** collect text input or prompts",
+          "We do **not** track app usage",
+          "We do **not** use analytics, tracking, or advertising SDKs",
+          "We do **not** use cookies or identifiers"
+        ],
+        "footer": "VibeCap does not communicate with any external servers."
+      },
+      "screenContent": {
+        "title": "Screen Content",
+        "intro": "When you take a screenshot using VibeCap:",
+        "items": [
+          "The captured image exists only in memory on your device",
+          "The image is optionally saved **only** to a folder you explicitly choose",
+          "The image is pasted directly into the target application you select"
+        ],
+        "footer": "VibeCap never uploads or transmits screenshots outside your device."
+      },
+      "permissions": {
+        "title": "Permissions",
+        "intro": "VibeCap requires certain macOS system permissions to function correctly:",
+        "types": {
+          "screenRecording": {
+            "title": "Screen Recording",
+            "description": "Used solely to capture the screen area you select when taking a screenshot."
+          },
+          "accessibility": {
+            "title": "Accessibility",
+            "description": "Used to simulate keyboard actions (such as paste commands) in the target application you choose."
+          }
+        },
+        "footer": "These permissions are:",
+        "notes": [
+          "Requested only when needed",
+          "Used only for the described functionality",
+          "Never used to monitor user behavior"
+        ]
+      },
+      "localStorage": {
+        "title": "Local Storage",
+        "intro": "VibeCap stores limited configuration data locally using macOS system storage, including:",
+        "items": [
+          "Keyboard shortcut preferences",
+          "Screenshot save location (via security-scoped bookmarks)",
+          "App settings such as auto-save and launch-at-login"
+        ],
+        "footer": "This data never leaves your device."
+      },
+      "thirdParty": {
+        "title": "Third-Party Services",
+        "intro": "VibeCap does not integrate with any third-party services.",
+        "weDoNotUse": "We do not use:",
+        "items": [
+          "Analytics providers",
+          "Cloud storage",
+          "Advertising networks",
+          "Crash reporting services"
+        ]
+      },
+      "dataSharing": {
+        "title": "Data Sharing",
+        "content": "Because VibeCap does not collect data, **no data is shared with third parties**."
+      },
+      "childrenPrivacy": {
+        "title": "Children's Privacy",
+        "content": "VibeCap does not collect any data and is safe for users of all ages."
+      },
+      "changes": {
+        "title": "Changes to This Policy",
+        "content": "If VibeCap's functionality changes in a way that affects privacy, this Privacy Policy will be updated accordingly."
+      },
+      "contact": {
+        "title": "Contact",
+        "intro": "If you have questions about this Privacy Policy, please contact:",
+        "email": "Email: support@yourdomain.com"
+      }
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms of Service — VibeCap",
+      "description": "VibeCap Terms of Service - Learn about the terms governing use of the app"
+    },
+    "effectiveDate": "Effective Date: January 2026",
+    "intro": [
+      "These Terms of Service (\"Terms\") govern your use of VibeCap (the \"App\").",
+      "By downloading, installing, or using the App, you agree to these Terms.",
+      "If you do not agree, do not use the App."
+    ],
+    "sections": {
+      "theApp": {
+        "title": "The App",
+        "content": [
+          "VibeCap is a macOS menu bar application that allows users to capture screenshots and paste them into other applications on their local device.",
+          "The App operates entirely locally and does not provide cloud-based services."
+        ]
+      },
+      "license": {
+        "title": "License",
+        "intro": "We grant you a personal, non-exclusive, non-transferable, revocable license to use VibeCap for lawful purposes in accordance with these Terms.",
+        "youMayNot": "You may not:",
+        "restrictions": [
+          "Modify, reverse engineer, or redistribute the App",
+          "Use the App for unlawful or abusive purposes",
+          "Circumvent system or security restrictions imposed by macOS"
+        ]
+      },
+      "userContent": {
+        "title": "User Content",
+        "intro": "Any screenshots or text you capture or paste using VibeCap (\"User Content\") remain entirely under your control.",
+        "vibeCapDoes": "VibeCap:",
+        "policies": [
+          "Does not access User Content beyond the immediate operation",
+          "Does not store or transmit User Content",
+          "Does not claim ownership of User Content"
+        ],
+        "footer": "You are solely responsible for how you use and share your content."
+      },
+      "permissions": {
+        "title": "Permissions and System Access",
+        "intro": "VibeCap requires certain macOS permissions (such as Screen Recording and Accessibility) to function.",
+        "acknowledgment": "By using the App, you acknowledge that:",
+        "items": [
+          "You grant these permissions voluntarily",
+          "The App uses them only for its stated functionality",
+          "You may revoke permissions at any time in macOS system settings"
+        ]
+      },
+      "availability": {
+        "title": "Availability and Changes",
+        "content": [
+          "We may update, modify, or discontinue the App or any part of it at any time without notice.",
+          "We do not guarantee that the App will be available at all times or that it will be error-free."
+        ]
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "content": [
+          "The App is provided \"as is\" and \"as available,\" without warranties of any kind.",
+          "To the fullest extent permitted by law, we disclaim all warranties, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement."
+        ]
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": [
+          "To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, consequential, or special damages arising out of or in connection with your use of the App.",
+          "Your use of the App is at your own risk."
+        ]
+      },
+      "termination": {
+        "title": "Termination",
+        "content": [
+          "We may terminate or suspend your access to the App at any time if you violate these Terms.",
+          "You may stop using the App at any time by uninstalling it."
+        ]
+      },
+      "governingLaw": {
+        "title": "Governing Law",
+        "content": "These Terms are governed by and construed in accordance with the laws of the United States, without regard to conflict of law principles."
+      },
+      "changes": {
+        "title": "Changes to These Terms",
+        "content": [
+          "We may update these Terms from time to time.",
+          "Continued use of the App after changes become effective constitutes acceptance of the updated Terms."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "intro": "If you have questions about these Terms, please contact:",
+        "email": "Email: support@yourdomain.com"
+      }
+    }
   }
 }
