@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Header, Footer } from '@/components';
 import { locales } from '@/i18n/config';
@@ -27,10 +26,10 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
         <>
             <Header />
             <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-                <div className="max-w-4xl mx-auto px-6 py-16 sm:px-8 lg:px-12">
+                <div className="mx-auto w-[1024px] px-6 py-16 sm:px-8 lg:px-12">
                     {/* Header */}
                     <div className="mb-12">
-                        <h1 className="text-4xl font-bold text-gray-900 mb-4">Privacy Policy</h1>
+                        <h1 className="text-4xl font-bold text-gray-900 mb-4">{t('title')}</h1>
                         <p className="text-sm text-gray-600">{t('effectiveDate')}</p>
                     </div>
 

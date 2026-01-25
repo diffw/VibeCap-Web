@@ -8,7 +8,7 @@ export function Solution() {
 
   return (
     <section className="py-16 md:py-20 px-6 bg-stone-50">
-      <div className="max-w-4xl mx-auto">
+      <div className="mx-auto w-[1024px]">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-2xl md:text-3xl font-semibold text-stone-800 mb-4">
@@ -21,7 +21,7 @@ export function Solution() {
             <div className="space-y-4 mb-8">
               {[1, 2, 3, 4].map((step) => (
                 <div key={step} className="flex items-center gap-4">
-                  <span className="w-8 h-8 rounded-full bg-rose-200 text-rose-700 text-sm font-semibold flex items-center justify-center">
+                  <span className="w-8 h-8 rounded-full bg-[#FF8D76]/15 text-[#FF8D76] text-sm font-semibold flex items-center justify-center">
                     {step}
                   </span>
                   <span className="text-base text-stone-700">{t(`flow.step${step}`)}</span>
@@ -59,7 +59,7 @@ export function Solution() {
                   <p className="text-xs text-stone-400 font-mono">// Write your prompt...</p>
                 </div>
                 <div className="flex justify-end">
-                  <div className="px-4 py-2 rounded-full bg-rose-300 text-white text-sm font-medium">
+                  <div className="px-4 py-2 rounded-full bg-[#FF8D76] text-white text-sm font-medium">
                     Send to Editor →
                   </div>
                 </div>

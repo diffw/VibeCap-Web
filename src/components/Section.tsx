@@ -42,7 +42,7 @@ export function Section({ children, className = '', id }: SectionProps) {
         transition: 'opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1)',
       }}
     >
-      <div className="mx-auto max-w-4xl px-6">
+      <div className="mx-auto w-[1024px] px-6">
         {children}
       </div>
     </section>

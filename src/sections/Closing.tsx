@@ -7,7 +7,7 @@ export function Closing() {
 
   return (
     <section className="py-16 md:py-20 px-6 bg-stone-50">
-      <div className="max-w-2xl mx-auto text-center">
+      <div className="mx-auto w-[1024px] text-center">
         <h2 className="text-xl md:text-2xl font-semibold text-stone-800 mb-4">
           {t('title')}
         </h2>

@@ -28,7 +28,7 @@ export function Problems() {
 
   return (
     <section className="py-16 md:py-20 px-6 bg-white">
-      <div className="max-w-4xl mx-auto">
+      <div className="mx-auto w-[1024px]">
         <div className="text-center max-w-2xl mx-auto mb-10">
           <h2 className="text-2xl md:text-3xl font-semibold text-stone-800 mb-3">
             {t('title')}
@@ -45,7 +45,7 @@ export function Problems() {
               className="p-5 rounded-xl bg-stone-50 border border-stone-100 hover:border-stone-200 transition-colors duration-300"
             >
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-9 h-9 rounded-lg bg-rose-50 text-rose-400 flex items-center justify-center">
+                <div className="flex-shrink-0 w-9 h-9 rounded-lg bg-[#FF8D76]/10 text-[#FF8D76] flex items-center justify-center">
                   {icons[i]}
                 </div>
                 <div>

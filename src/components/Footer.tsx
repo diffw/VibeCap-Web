@@ -11,13 +11,13 @@ export function Footer() {
 
   return (
     <footer className="bg-white border-t border-stone-100 py-8 px-6">
-      <div className="max-w-3xl mx-auto">
+      <div className="mx-auto w-[1024px]">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <img
               src="/logo.svg"
               alt="VibeCap"
-              className="h-5 w-auto opacity-50"
+              className="h-8 w-auto opacity-50"
             />
             <span className="text-xs text-stone-400">
               {t('description')}

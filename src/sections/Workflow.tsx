@@ -7,7 +7,7 @@ export function Workflow() {
 
   return (
     <section className="py-16 md:py-20 px-6 bg-white">
-      <div className="max-w-2xl mx-auto text-center">
+      <div className="mx-auto w-[1024px] text-center">
         <h2 className="text-2xl md:text-3xl font-semibold text-stone-800 mb-5">
           {t('title')}
         </h2>
@@ -15,7 +15,7 @@ export function Workflow() {
           {t('description')}
         </p>
 
-        <div className="inline-block px-8 py-5 rounded-xl bg-rose-50 border border-rose-100">
+        <div className="inline-block px-8 py-5 rounded-xl bg-[#FF8D76]/10 border border-[#FF8D76]/20">
           <p className="text-xl md:text-2xl font-mono font-medium text-stone-700">
             {t('highlight')}
           </p>

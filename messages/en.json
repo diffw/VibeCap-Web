@@ -99,32 +99,33 @@
     ]
   },
   "pricing": {
-    "title": "Pricing",
-    "subtitle": "One tool. Two ways to pay.",
-    "description": "Choose the relationship that fits how you work.",
-    "oneTime": {
-      "title": "One-time purchase",
-      "price": "$39",
-      "note": "pay once",
-      "features": [
-        "Full access to all core features",
-        "Free updates within the current major version",
-        "No recurring fees"
-      ],
-      "footer": "You buy it. It's yours.",
-      "cta": "Buy Now"
+    "title": "Choose Your Plan",
+    "subtitle": "Pick the plan that fits how you work.",
+    "description": "No accounts. Cancel anytime for subscriptions.",
+    "badgeMostPopular": "Most popular",
+    "actions": {
+      "cta": "Start Your Free Trial"
     },
-    "subscription": {
-      "title": "Subscription",
-      "price": "$2.99",
-      "note": "/ month",
-      "features": [
-        "Full access to all features",
-        "Includes future major updates",
-        "Cancel anytime"
-      ],
-      "footer": "For teams or individuals who prefer ongoing tooling budgets.",
-      "cta": "Subscribe"
+    "plans": {
+      "monthly": {
+        "title": "Monthly",
+        "subtitle": "Pay as you go",
+        "price": "$1.99",
+        "period": "/month"
+      },
+      "yearly": {
+        "title": "Yearly",
+        "subtitle": "Best value",
+        "price": "$17.99",
+        "period": "/year",
+        "effectiveMonthly": "$1.50/month"
+      },
+      "lifetime": {
+        "title": "Lifetime",
+        "subtitle": "No subscription",
+        "price": "$24.99",
+        "period": "paid once"
+      }
     },
     "footnote": "No feature differences. Just different ways to pay."
   },
@@ -153,6 +154,7 @@
       "title": "Privacy Policy — VibeCap",
       "description": "VibeCap Privacy Policy - Learn how we protect your data"
     },
+    "title": "Privacy Policy",
     "effectiveDate": "Effective Date: January 2026",
     "sections": {
       "overview": {
@@ -243,7 +245,7 @@
       "contact": {
         "title": "Contact",
         "intro": "If you have questions about this Privacy Policy, please contact:",
-        "email": "Email: support@yourdomain.com"
+        "email": "Email: vibecap.dev@gmail.com"
       }
     }
   },
@@ -252,6 +254,7 @@
       "title": "Terms of Service — VibeCap",
       "description": "VibeCap Terms of Service - Learn about the terms governing use of the app"
     },
+    "title": "Terms of Service",
     "effectiveDate": "Effective Date: January 2026",
     "intro": [
       "These Terms of Service (\"Terms\") govern your use of VibeCap (the \"App\").",
@@ -339,7 +342,7 @@
       "contact": {
         "title": "Contact",
         "intro": "If you have questions about these Terms, please contact:",
-        "email": "Email: support@yourdomain.com"
+        "email": "Email: vibecap.dev@gmail.com"
       }
     }
   }

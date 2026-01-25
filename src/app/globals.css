@@ -14,8 +14,10 @@
   --color-text-tertiary: #9a9a9a;
   --color-border: #e8e8e4;
   --color-border-subtle: #f0f0ec;
-  --color-accent: #e8a5a5;
-  --color-accent-dark: #d99090;
+  /* Brand */
+  --color-accent: #FF8D76;
+  --color-accent-dark: #FF7A60;
+  --color-accent-soft: #FFF1ED;
 
   /* Hero - Soft warm gradient */
   --hero-bg: #f0ede8;

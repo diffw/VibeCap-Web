@@ -10,7 +10,7 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#f5f3ee]/90 backdrop-blur-md border-b border-stone-200/50">
-      <nav className="max-w-3xl mx-auto px-6 py-3 flex items-center justify-between">
+      <nav className="mx-auto w-[1024px] px-6 py-3 flex items-center justify-between">
         <Link
           href={`/${locale}`}
           className="hover:opacity-70 transition-opacity duration-300"
@@ -18,7 +18,7 @@ export function Header() {
           <img
             src="/logo.svg"
             alt="VibeCap"
-            className="h-6 w-auto"
+            className="h-8 w-auto"
           />
         </Link>
 
@@ -42,7 +42,7 @@ export function Header() {
             <LanguageSwitcher />
             <Link
               href={`/${locale}#pricing`}
-              className="text-xs font-medium px-3 py-1.5 rounded-full bg-stone-800 text-white hover:bg-stone-700 transition-colors duration-300"
+              className="text-xs font-medium px-3 py-1.5 rounded-full bg-[#FF8D76] text-white hover:bg-[#FF7A60] transition-colors duration-300"
             >
               {t('download')}
             </Link>

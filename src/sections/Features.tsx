@@ -26,7 +26,7 @@ export function Features() {
 
   return (
     <section id="features" className="py-16 md:py-20 px-6 bg-stone-50">
-      <div className="max-w-4xl mx-auto">
+      <div className="mx-auto w-[1024px]">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-semibold text-stone-800">
             {t('title')}
@@ -41,7 +41,7 @@ export function Features() {
                 key={i}
                 className={`p-5 rounded-xl bg-white border border-stone-100 hover:border-stone-200 transition-colors duration-300 ${i === 4 ? 'md:col-span-2 lg:col-span-1' : ''}`}
               >
-                <div className="w-10 h-10 rounded-lg bg-rose-50 text-rose-400 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-[#FF8D76]/10 text-[#FF8D76] flex items-center justify-center mb-4">
                   {icons[i]}
                 </div>
                 <h3 className="text-base font-medium text-stone-800 mb-3">
