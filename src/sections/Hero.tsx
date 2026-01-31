@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 
 export function Hero() {
   const t = useTranslations('hero');
+  const appStoreUrl = 'https://apps.apple.com/us/app/vibecap/id6758246419?mt=12';
 
   return (
     <section 
@@ -31,7 +32,9 @@ export function Hero() {
         {/* CTA Button */}
         <div>
           <a
-            href="#pricing"
+            href={appStoreUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#FF8D76] text-white font-medium text-base hover:bg-[#FF7A60] transition-colors duration-300"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">

@@ -7,6 +7,7 @@ import { LanguageSwitcher } from './LanguageSwitcher';
 export function Header() {
   const t = useTranslations('nav');
   const locale = useLocale();
+  const appStoreUrl = 'https://apps.apple.com/us/app/vibecap/id6758246419?mt=12';
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#f5f3ee]/90 backdrop-blur-md border-b border-stone-200/50">
@@ -40,12 +41,14 @@ export function Header() {
 
           <div className="flex items-center gap-3">
             <LanguageSwitcher />
-            <Link
-              href={`/${locale}#pricing`}
+            <a
+              href={appStoreUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-xs font-medium px-3 py-1.5 rounded-full bg-[#FF8D76] text-white hover:bg-[#FF7A60] transition-colors duration-300"
             >
               {t('download')}
-            </Link>
+            </a>
           </div>
         </div>
       </nav>

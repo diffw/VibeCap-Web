@@ -5,7 +5,7 @@ import { useMemo, useState } from 'react';
 
 export function Pricing() {
   const t = useTranslations('pricing');
-  const appStoreUrl = process.env.NEXT_PUBLIC_APP_STORE_URL ?? 'https://apps.apple.com/';
+  const appStoreUrl = 'https://apps.apple.com/us/app/vibecap/id6758246419?mt=12';
 
   type PlanId = 'monthly' | 'yearly' | 'lifetime';
 
