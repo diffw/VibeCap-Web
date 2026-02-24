@@ -16,7 +16,7 @@ export function Footer() {
           <div className="flex items-center gap-3">
             <img
               src="/logo.svg"
-              alt="VibeCap"
+              alt="VibeCap — macOS screenshot tool for vibe coding"
               className="h-8 w-auto opacity-50"
             />
             <span className="text-xs text-stone-400">
@@ -35,10 +35,18 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-6 pt-4 border-t border-stone-100 text-center">
+        <div className="mt-6 pt-4 border-t border-stone-100 flex flex-col md:flex-row items-center justify-between gap-2">
           <p className="text-[10px] text-stone-400">
             {t('copyright', { year: currentYear })}
           </p>
+          <div className="flex items-center gap-4">
+            <a href="mailto:vibecap.dev@gmail.com" className="text-[10px] text-stone-400 hover:text-stone-600 transition-colors">
+              vibecap.dev@gmail.com
+            </a>
+            <time dateTime="2026-01-24" className="text-[10px] text-stone-300">
+              Updated Jan 2026
+            </time>
+          </div>
         </div>
       </div>
     </footer>

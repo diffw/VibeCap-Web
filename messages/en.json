@@ -1,17 +1,18 @@
 {
   "meta": {
-    "title": "VibeCap — Boost Your Vibe Coding",
-    "description": "A screenshot tool built specifically for vibe coding. Capture, annotate, and send to your editor in one flow."
+    "title": "VibeCap — Screenshot Tool for Vibe Coding on macOS",
+    "description": "VibeCap is a macOS screenshot tool for vibe coding. Capture, annotate, and send screenshots with prompts to AI code editors like Cursor in one action. Free trial."
   },
   "hero": {
-    "badge": "Built for vibe coding",
-    "headline": "Boost your vibe coding",
-    "subheadline": "by fixing the way you take screenshots",
+    "badge": "Screenshot tool for vibe coding",
+    "headline": "VibeCap — Screenshot Tool Built for Vibe Coding",
+    "subheadline": "Capture, annotate, and send to your AI code editor in one action",
+    "entityParagraph": "VibeCap is a macOS screenshot tool designed for vibe coding workflows. It lets developers capture screen areas, add annotations, write prompts, and send everything to AI-powered code editors like Cursor, Windsurf, and GitHub Copilot in a single copy-paste action. Unlike traditional macOS screenshots that disappear before you can use them, VibeCap keeps captures in context. No accounts, no cloud dependency — runs entirely on your Mac.",
     "cta": "Download for macOS",
-    "ctaNote": "macOS 13.0+ · Apple Silicon"
+    "ctaNote": "macOS 13.0+ · Apple Silicon · Free trial"
   },
   "problems": {
-    "title": "Why screenshots slow you down today",
+    "title": "Why macOS Screenshots Slow Down Vibe Coding",
     "subtitle": "macOS screenshots are powerful. But once you start vibe coding, they become friction.",
     "items": [
       {
@@ -33,7 +34,7 @@
     ]
   },
   "solution": {
-    "title": "What VibeCap changes",
+    "title": "How VibeCap Fixes the Screenshot-to-Editor Flow",
     "subtitle": "VibeCap is not a replacement for your editor. It fixes the moment before you talk to it.",
     "flow": {
       "step1": "Capture one or multiple screenshots",
@@ -48,13 +49,13 @@
     ]
   },
   "workflow": {
-    "title": "Built for vibe coding workflows",
+    "title": "VibeCap Workflow — Screenshot to AI Editor in Seconds",
     "description": "VibeCap understands how vibe coding actually works: You don't want to explain everything. You want to show, then say a few words.",
     "highlight": "image(s) + text + destination editor",
     "note": "At the moment you're still in context."
   },
   "features": {
-    "title": "Core features",
+    "title": "VibeCap Screenshot Features",
     "items": [
       {
         "title": "Fast capture",
@@ -99,7 +100,7 @@
     ]
   },
   "pricing": {
-    "title": "Choose Your Plan",
+    "title": "VibeCap Pricing",
     "subtitle": "Pick the plan that fits how you work.",
     "description": "No accounts. Cancel anytime for subscriptions.",
     "badgeMostPopular": "Most popular",
@@ -130,10 +131,56 @@
     "footnote": "No feature differences. Just different ways to pay."
   },
   "closing": {
-    "title": "Built to remove friction, not add features",
-    "description": "VibeCap doesn't try to be smart. It tries to be reliable at the exact moment you need it.",
+    "title": "Download VibeCap — Start Vibe Coding Faster",
+    "description": "VibeCap doesn't try to be smart. It tries to be reliable at the exact moment you need it — removing screenshot friction so you stay in flow.",
     "highlight": "That's what makes vibe coding smoother.",
-    "note": "And that's why this small tool ends up making a big difference."
+    "note": "And that's why this small tool ends up making a big difference.",
+    "cta": "Download for macOS — Free Trial"
+  },
+  "faq": {
+    "title": "VibeCap — Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is VibeCap?",
+        "answer": "VibeCap is a macOS menu-bar screenshot tool designed for vibe coding. It allows developers to capture screen areas, add annotations, write prompts, and send screenshots directly to AI-powered code editors such as Cursor, Windsurf, and GitHub Copilot — all in a single copy-paste action."
+      },
+      {
+        "question": "How does VibeCap work?",
+        "answer": "VibeCap runs in the macOS menu bar. Users trigger a capture via a global keyboard shortcut (default: ⌘⇧C), select a screen area, optionally annotate the screenshot and write a prompt, then copy everything. VibeCap automatically pastes both the image and the text into the target editor when the user presses ⌘V."
+      },
+      {
+        "question": "What platforms does VibeCap support?",
+        "answer": "VibeCap is a native macOS application. It requires macOS 13.0 (Ventura) or later and supports both Apple Silicon and Intel Macs. There is currently no Windows or Linux version."
+      },
+      {
+        "question": "Is VibeCap free to use?",
+        "answer": "VibeCap offers a free tier that includes area capture, screenshot saving, and arrow annotations. A Pro subscription unlocks additional annotation tools (rectangles, circles, numbered markers) and color customization. Plans start at $1.99/month, $17.99/year, or a one-time $24.99 lifetime purchase."
+      },
+      {
+        "question": "Does VibeCap collect any personal data?",
+        "answer": "VibeCap does not collect, store, transmit, or share any personal data. All screenshots and prompts remain on the user's device. VibeCap does not include analytics, tracking, advertising SDKs, or cloud services. It operates entirely offline."
+      },
+      {
+        "question": "How does VibeCap compare to macOS built-in screenshots?",
+        "answer": "macOS built-in screenshots (⌘⇧3/4) capture images that disappear from the preview quickly, require manual dragging across windows, and lack prompt-attachment support. VibeCap keeps screenshots in context, supports multiple captures per session, provides annotation tools designed for explaining code problems, and delivers screenshots with prompts to the editor in one action."
+      },
+      {
+        "question": "Which code editors work with VibeCap?",
+        "answer": "VibeCap works with any application that accepts pasted images. It is optimized for AI-powered code editors including Cursor, Windsurf, GitHub Copilot, and other tools that accept screenshot-based prompts. It also works with chat applications like Slack, Discord, and web-based AI interfaces."
+      },
+      {
+        "question": "Does VibeCap require an internet connection?",
+        "answer": "VibeCap does not require an internet connection for its core functionality. All captures, annotations, and clipboard operations happen locally on the device. An internet connection is only needed for initial App Store download and in-app purchase verification."
+      },
+      {
+        "question": "What annotation tools does VibeCap provide?",
+        "answer": "VibeCap provides arrow, rectangle, circle, and numbered-marker annotation tools. The free tier includes arrows in red. Pro users can access all annotation shapes and choose from six colors: red, blue, green, yellow, orange, and purple."
+      },
+      {
+        "question": "Can VibeCap send multiple screenshots at once?",
+        "answer": "Yes. VibeCap supports capturing multiple screenshots in a single session. Users can take several captures, annotate each one individually, then write a single prompt and send all images together to their editor in one paste action."
+      }
+    ]
   },
   "footer": {
     "tagline": "VibeCap",

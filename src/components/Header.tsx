@@ -18,7 +18,7 @@ export function Header() {
         >
           <img
             src="/logo.svg"
-            alt="VibeCap"
+            alt="VibeCap logo — macOS screenshot tool for vibe coding"
             className="h-8 w-auto"
           />
         </Link>

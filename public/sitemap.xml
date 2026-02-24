@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://vibecap.dev/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vibecap.dev/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://vibecap.dev/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vibecap.dev/en/" />
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://vibecap.dev/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vibecap.dev/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://vibecap.dev/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vibecap.dev/en/" />
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://vibecap.dev/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vibecap.dev/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://vibecap.dev/zh/privacy/" />
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://vibecap.dev/zh/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vibecap.dev/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://vibecap.dev/zh/privacy/" />
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://vibecap.dev/en/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vibecap.dev/en/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://vibecap.dev/zh/terms/" />
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://vibecap.dev/zh/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vibecap.dev/en/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://vibecap.dev/zh/terms/" />
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://vibecap.dev/llms.txt</loc>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'VibeCap — Boost Your Vibe Coding',
-  description: 'A screenshot tool built specifically for vibe coding.',
+  title: 'VibeCap — Screenshot Tool for Vibe Coding on macOS',
+  description: 'VibeCap is a macOS screenshot tool for vibe coding. Capture, annotate, and send screenshots with prompts to AI code editors like Cursor in one action.',
   icons: {
     icon: '/favicon.png',
     apple: '/favicon.png',

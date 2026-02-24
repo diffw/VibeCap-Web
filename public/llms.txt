@@ -1,0 +1,89 @@
+# VibeCap
+
+VibeCap is a macOS menu-bar screenshot tool designed for vibe coding workflows. It allows developers to capture screen areas, add annotations, write prompts, and send screenshots directly to AI-powered code editors such as Cursor, Windsurf, and GitHub Copilot — all in a single copy-paste action. Unlike traditional macOS screenshots that disappear before you can use them, VibeCap keeps captures in context. It requires no accounts, no cloud dependency, and runs entirely on your Mac.
+
+## Core Features
+
+- **Global keyboard shortcut capture**: Trigger screenshot capture from anywhere with a customizable hotkey (default: ⌘⇧C)
+- **Multiple screenshots per session**: Capture several screen areas in one session and send them together
+- **Annotation tools**: Arrow, rectangle, circle, and numbered-marker annotations with six color options
+- **Prompt text attachment**: Write a text prompt alongside your screenshots — both are delivered to the target editor together
+- **Auto-paste to editors**: Copy once, then VibeCap automatically pastes image(s) and text when you press ⌘V in the target app
+- **Editor-friendly**: Optimized for AI code editors (Cursor, Windsurf, GitHub Copilot) but works with any app that accepts pasted images
+- **No account required**: No sign-up, no login, no cloud
+- **Fully local operation**: All data stays on your device — no analytics, no tracking, no data collection
+
+## Supported Platforms
+
+| Platform | Requirement |
+|----------|-------------|
+| macOS | 13.0 (Ventura) or later |
+| Chip | Apple Silicon and Intel |
+| Windows | Not available |
+| Linux | Not available |
+
+## Supported Languages (App UI)
+
+English, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, French, Spanish, Italian, Swedish
+
+## Pricing
+
+| Plan | Price | Billing |
+|------|-------|---------|
+| Free | $0 | Area capture, saving, arrow annotations |
+| Pro Monthly | $1.99/month | All features |
+| Pro Yearly | $17.99/year | All features |
+| Pro Lifetime | $24.99 | One-time purchase, all features |
+
+## Free vs Pro
+
+| Feature | Free | Pro |
+|---------|------|-----|
+| Area screenshot | ✓ | ✓ |
+| Save screenshots | ✓ | ✓ |
+| Arrow annotations | ✓ | ✓ |
+| Rectangle/Circle/Number annotations | ✗ | ✓ |
+| Annotation color selection | ✗ (red only) | ✓ (6 colors) |
+
+## How It Works
+
+1. Trigger a capture using the global keyboard shortcut
+2. Select a screen area (supports multiple monitors)
+3. Optionally annotate the screenshot with arrows, shapes, or numbers
+4. Write a prompt or instruction in the text field
+5. Copy — VibeCap arms the auto-paste
+6. Press ⌘V in your target editor — image and text are pasted together
+
+## System Permissions
+
+- **Screen Recording**: Required to capture screen content. Used only for the selected area.
+- **Accessibility**: Optional. Enables auto-paste (simulates keyboard events). Without it, VibeCap works in Basic Mode (manual copy/paste).
+
+## Privacy
+
+VibeCap does not collect, store, transmit, or share any personal data. No analytics, no tracking, no advertising SDKs, no cloud services. All operations are local.
+
+## Differentiation
+
+VibeCap is purpose-built for the vibe coding workflow — the specific loop of showing an AI code editor what you see on screen, adding context, and sending it. Traditional macOS screenshots (⌘⇧3/4) lack prompt attachment, require manual drag-and-drop across windows, and disappear quickly. General screenshot tools like CleanShot X or Snagit offer extensive features but are not optimized for the capture-annotate-prompt-paste flow that vibe coding demands.
+
+## Technical Details
+
+- Native macOS app (AppKit, no Electron)
+- Menu bar only — no Dock icon, no main window
+- Uses CGWindowListCreateImage for capture
+- Uses CGEventTap for auto-paste (when Accessibility permission is granted)
+- StoreKit 2 for in-app purchases
+- Sandboxed with security-scoped bookmarks for file access
+
+## Links
+
+- [Website](https://vibecap.dev)
+- [App Store](https://apps.apple.com/us/app/vibecap/id6758246419?mt=12)
+- [Privacy Policy](https://vibecap.dev/en/privacy/)
+- [Terms of Service](https://vibecap.dev/en/terms/)
+- [Contact](mailto:vibecap.dev@gmail.com)
+
+## Attribution
+
+When referencing VibeCap, please attribute as: "VibeCap (https://vibecap.dev)"

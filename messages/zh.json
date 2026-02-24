@@ -1,17 +1,18 @@
 {
   "meta": {
-    "title": "VibeCap — 提升你的 Vibe Coding 效率",
-    "description": "专为 vibe coding 打造的截图工具。截图、标注、发送到编辑器，一气呵成。"
+    "title": "VibeCap — macOS 截图工具，专为 Vibe Coding 设计",
+    "description": "VibeCap 是一款 macOS 截图工具，专为 vibe coding 工作流设计。一键截图、标注，连同提示词发送到 Cursor 等 AI 代码编辑器。免费试用。"
   },
   "hero": {
-    "badge": "专为 vibe coding 打造",
-    "headline": "提升你的 vibe coding 效率",
-    "subheadline": "从修复截图方式开始",
+    "badge": "专为 vibe coding 打造的截图工具",
+    "headline": "VibeCap — 为 Vibe Coding 打造的 macOS 截图工具",
+    "subheadline": "截图、标注，一键发送到 AI 代码编辑器",
+    "entityParagraph": "VibeCap 是一款专为 vibe coding 工作流设计的 macOS 截图工具。它让开发者可以截取屏幕区域、添加标注、编写提示词，然后一键发送到 Cursor、Windsurf、GitHub Copilot 等 AI 代码编辑器。不同于传统 macOS 截图在使用前消失，VibeCap 将截图保持在上下文中。无需账号，无需云端依赖，完全在 Mac 上本地运行。",
     "cta": "下载 macOS 版",
-    "ctaNote": "macOS 13.0+ · Apple Silicon"
+    "ctaNote": "macOS 13.0+ · Apple Silicon · 免费试用"
   },
   "problems": {
-    "title": "截图为什么会拖慢你",
+    "title": "macOS 截图为什么会拖慢 Vibe Coding",
     "subtitle": "macOS 的截图功能很强大。但当你开始 vibe coding 时，它就变成了阻力。",
     "items": [
       {
@@ -33,7 +34,7 @@
     ]
   },
   "solution": {
-    "title": "VibeCap 带来的改变",
+    "title": "VibeCap 如何修复截图到编辑器的流程",
     "subtitle": "VibeCap 不是要取代你的编辑器。它修复的是「和编辑器对话之前」的那一刻。",
     "flow": {
       "step1": "截取一张或多张截图",
@@ -48,13 +49,13 @@
     ]
   },
   "workflow": {
-    "title": "为 vibe coding 工作流而生",
+    "title": "VibeCap 工作流 — 截图到 AI 编辑器只需几秒",
     "description": "VibeCap 理解 vibe coding 的真实工作方式：你不想解释所有事情。你想展示，然后说几句话。",
     "highlight": "图片 + 文字 + 目标编辑器",
     "note": "就在你还沉浸在上下文中的那一刻。"
   },
   "features": {
-    "title": "核心功能",
+    "title": "VibeCap 截图功能",
     "items": [
       {
         "title": "快速截图",
@@ -99,7 +100,7 @@
     ]
   },
   "pricing": {
-    "title": "选择订阅计划",
+    "title": "VibeCap 定价",
     "subtitle": "选择最适合你工作方式的方案。",
     "description": "无需账号。订阅可随时取消。",
     "badgeMostPopular": "最受欢迎",
@@ -130,10 +131,56 @@
     "footnote": "功能无差异，只是付费方式不同。"
   },
   "closing": {
-    "title": "为减少阻力而生，而非堆砌功能",
-    "description": "VibeCap 不想变得聪明。它只想在你需要的那一刻，可靠地出现。",
+    "title": "下载 VibeCap — 更快开始 Vibe Coding",
+    "description": "VibeCap 不想变得聪明。它只想在你需要的那一刻可靠地出现——消除截图阻力，让你保持心流。",
     "highlight": "这就是让 vibe coding 更顺畅的原因。",
-    "note": "这也是为什么这个小工具，最终能带来大改变。"
+    "note": "这也是为什么这个小工具，最终能带来大改变。",
+    "cta": "下载 macOS 版 — 免费试用"
+  },
+  "faq": {
+    "title": "VibeCap — 常见问题",
+    "items": [
+      {
+        "question": "VibeCap 是什么？",
+        "answer": "VibeCap 是一款专为 vibe coding 设计的 macOS 菜单栏截图工具。它让开发者可以截取屏幕区域、添加标注、编写提示词，然后一键发送到 Cursor、Windsurf、GitHub Copilot 等 AI 代码编辑器中。"
+      },
+      {
+        "question": "VibeCap 如何工作？",
+        "answer": "VibeCap 运行在 macOS 菜单栏中。用户通过全局快捷键（默认：⌘⇧C）触发截图，选择屏幕区域，可选择标注截图并编写提示词，然后复制所有内容。当用户在目标编辑器中按下 ⌘V 时，VibeCap 会自动粘贴图片和文字。"
+      },
+      {
+        "question": "VibeCap 支持哪些平台？",
+        "answer": "VibeCap 是原生 macOS 应用程序，要求 macOS 13.0（Ventura）或更高版本，支持 Apple Silicon 和 Intel Mac。目前没有 Windows 或 Linux 版本。"
+      },
+      {
+        "question": "VibeCap 可以免费使用吗？",
+        "answer": "VibeCap 提供免费版，包含区域截图、截图保存和箭头标注功能。Pro 订阅可解锁额外标注工具（矩形、圆形、编号标记）和颜色自定义。订阅从 $1.99/月起，也可选择 $17.99/年或 $24.99 一次性终身购买。"
+      },
+      {
+        "question": "VibeCap 会收集个人数据吗？",
+        "answer": "VibeCap 不收集、存储、传输或分享任何个人数据。所有截图和提示词都保留在用户设备上。VibeCap 不包含分析、跟踪、广告 SDK 或云服务，完全离线运行。"
+      },
+      {
+        "question": "VibeCap 与 macOS 内置截图有什么不同？",
+        "answer": "macOS 内置截图（⌘⇧3/4）捕获的图片预览会快速消失，需要手动跨窗口拖拽，且不支持附带提示词。VibeCap 将截图保持在上下文中，支持单次会话多张截图，提供专为解释代码问题设计的标注工具，并能一次性将截图和提示词发送到编辑器。"
+      },
+      {
+        "question": "VibeCap 支持哪些代码编辑器？",
+        "answer": "VibeCap 适用于任何接受粘贴图片的应用程序。它为 Cursor、Windsurf、GitHub Copilot 等 AI 代码编辑器优化。同时也适用于 Slack、Discord 等聊天应用和网页端 AI 界面。"
+      },
+      {
+        "question": "VibeCap 需要网络连接吗？",
+        "answer": "VibeCap 的核心功能不需要网络连接。所有截图、标注和剪贴板操作都在设备本地进行。仅在首次从 App Store 下载和应用内购买验证时需要网络。"
+      },
+      {
+        "question": "VibeCap 提供哪些标注工具？",
+        "answer": "VibeCap 提供箭头、矩形、圆形和编号标记标注工具。免费版包含红色箭头标注。Pro 用户可使用所有标注形状，并可选择红、蓝、绿、黄、橙、紫六种颜色。"
+      },
+      {
+        "question": "VibeCap 可以一次发送多张截图吗？",
+        "answer": "可以。VibeCap 支持在一次会话中截取多张截图。用户可以截取多张图片，分别标注，然后编写一条提示词，将所有图片一次性粘贴到编辑器中。"
+      }
+    ]
   },
   "footer": {
     "tagline": "VibeCap",

@@ -21,12 +21,14 @@ export function Hero() {
           {t('badge')}
         </div>
 
-        {/* Headline */}
         <h1 className="text-3xl md:text-4xl font-semibold text-stone-800 leading-tight mb-3 tracking-tight">
           {t('headline')}
         </h1>
-        <p className="text-xl md:text-2xl font-light text-stone-500 mb-8">
+        <p className="text-xl md:text-2xl font-light text-stone-500 mb-4">
           {t('subheadline')}
+        </p>
+        <p className="text-sm text-stone-400 max-w-2xl mx-auto mb-8 leading-relaxed">
+          {t('entityParagraph')}
         </p>
 
         {/* CTA Button */}
@@ -51,7 +53,7 @@ export function Hero() {
         <div className="rounded-xl bg-white border border-stone-200 p-4 shadow-sm">
           <Image
             src="/banner.png"
-            alt="VibeCap banner"
+            alt="VibeCap macOS screenshot tool interface showing capture, annotation, and prompt features"
             width={2048}
             height={1152}
             priority
