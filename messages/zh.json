@@ -4,15 +4,15 @@
     "description": "VibeCap 是一款 macOS 截图工具，专为 vibe coding 工作流设计。一键截图、标注，连同提示词发送到 Cursor 等 AI 代码编辑器。免费试用。"
   },
   "hero": {
-    "badge": "专为 vibe coding 打造的截图工具",
-    "headline": "VibeCap — 为 Vibe Coding 打造的 macOS 截图工具",
-    "subheadline": "截图、标注，一键发送到 AI 代码编辑器",
+    "badge": "专为 vibe coding 打造",
+    "headline": "截图。提示词。复制粘贴。",
+    "subheadline": "一款轻量级 macOS 截图工具，帮你一键将截图变成 AI 对话。",
     "entityParagraph": "VibeCap 是一款专为 vibe coding 工作流设计的 macOS 截图工具。它让开发者可以截取屏幕区域、添加标注、编写提示词，然后一键发送到 Cursor、Windsurf、GitHub Copilot 等 AI 代码编辑器。不同于传统 macOS 截图在使用前消失，VibeCap 将截图保持在上下文中。无需账号，无需云端依赖，完全在 Mac 上本地运行。",
     "cta": "下载 macOS 版",
-    "ctaNote": "macOS 13.0+ · Apple Silicon · 免费试用"
+    "ctaNote": "macOS 13.0+ · Apple Silicon · 免费"
   },
   "problems": {
-    "title": "macOS 截图为什么会拖慢 Vibe Coding",
+    "title": "截图为什么拖慢你",
     "subtitle": "macOS 的截图功能很强大。但当你开始 vibe coding 时，它就变成了阻力。",
     "items": [
       {
@@ -34,7 +34,7 @@
     ]
   },
   "solution": {
-    "title": "VibeCap 如何修复截图到编辑器的流程",
+    "title": "VibeCap 如何工作",
     "subtitle": "VibeCap 不是要取代你的编辑器。它修复的是「和编辑器对话之前」的那一刻。",
     "flow": {
       "step1": "截取一张或多张截图",
@@ -49,13 +49,13 @@
     ]
   },
   "workflow": {
-    "title": "VibeCap 工作流 — 截图到 AI 编辑器只需几秒",
+    "title": "截图到 AI 编辑器，只需几秒",
     "description": "VibeCap 理解 vibe coding 的真实工作方式：你不想解释所有事情。你想展示，然后说几句话。",
     "highlight": "图片 + 文字 + 目标编辑器",
     "note": "就在你还沉浸在上下文中的那一刻。"
   },
   "features": {
-    "title": "VibeCap 截图功能",
+    "title": "功能",
     "items": [
       {
         "title": "快速截图",
@@ -100,7 +100,7 @@
     ]
   },
   "pricing": {
-    "title": "VibeCap 定价",
+    "title": "定价",
     "subtitle": "选择最适合你工作方式的方案。",
     "description": "无需账号。订阅可随时取消。",
     "badgeMostPopular": "最受欢迎",
@@ -131,14 +131,13 @@
     "footnote": "功能无差异，只是付费方式不同。"
   },
   "closing": {
-    "title": "下载 VibeCap — 更快开始 Vibe Coding",
-    "description": "VibeCap 不想变得聪明。它只想在你需要的那一刻可靠地出现——消除截图阻力，让你保持心流。",
-    "highlight": "这就是让 vibe coding 更顺畅的原因。",
-    "note": "这也是为什么这个小工具，最终能带来大改变。",
-    "cta": "下载 macOS 版 — 免费试用"
+    "title": "获取 VibeCap",
+    "description": "它不会取代你的编辑器或 AI 工具。它只是消除「截图 → 提示词 → 继续」循环中的阻力。",
+    "highlight": "从日常 AI 任务到 vibe coding 工作流，VibeCap 帮你的截图清晰地与 AI 对话。",
+    "cta": "下载 macOS 版"
   },
   "faq": {
-    "title": "VibeCap — 常见问题",
+    "title": "常见问题",
     "items": [
       {
         "question": "VibeCap 是什么？",

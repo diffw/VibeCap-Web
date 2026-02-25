@@ -12,14 +12,11 @@ export function Closing() {
         <h2 className="text-xl md:text-2xl font-semibold text-stone-800 mb-4">
           {t('title')}
         </h2>
-        <p className="text-base text-stone-500 mb-5">
+        <p className="text-base text-stone-500 mb-5 max-w-lg mx-auto">
           {t('description')}
         </p>
-        <p className="text-base font-medium text-stone-700 mb-3">
+        <p className="text-sm text-stone-400 mb-8 max-w-lg mx-auto">
           {t('highlight')}
-        </p>
-        <p className="text-sm text-stone-400 mb-8">
-          {t('note')}
         </p>
         <a
           href={appStoreUrl}

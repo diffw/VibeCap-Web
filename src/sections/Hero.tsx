@@ -24,10 +24,10 @@ export function Hero() {
         <h1 className="text-3xl md:text-4xl font-semibold text-stone-800 leading-tight mb-3 tracking-tight">
           {t('headline')}
         </h1>
-        <p className="text-xl md:text-2xl font-light text-stone-500 mb-4">
+        <p className="text-base md:text-lg text-stone-500 max-w-xl mx-auto mb-8 leading-relaxed">
           {t('subheadline')}
         </p>
-        <p className="text-sm text-stone-400 max-w-2xl mx-auto mb-8 leading-relaxed">
+        <p className="sr-only">
           {t('entityParagraph')}
         </p>
 

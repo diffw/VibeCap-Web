@@ -4,15 +4,15 @@
     "description": "VibeCap is a macOS screenshot tool for vibe coding. Capture, annotate, and send screenshots with prompts to AI code editors like Cursor in one action. Free trial."
   },
   "hero": {
-    "badge": "Screenshot tool for vibe coding",
-    "headline": "VibeCap — Screenshot Tool Built for Vibe Coding",
-    "subheadline": "Capture, annotate, and send to your AI code editor in one action",
+    "badge": "Built for vibe coding",
+    "headline": "Capture. Prompt. Copy & Paste.",
+    "subheadline": "A lightweight screenshot tool for macOS that helps you turn screenshots into AI-ready conversations — in one click.",
     "entityParagraph": "VibeCap is a macOS screenshot tool designed for vibe coding workflows. It lets developers capture screen areas, add annotations, write prompts, and send everything to AI-powered code editors like Cursor, Windsurf, and GitHub Copilot in a single copy-paste action. Unlike traditional macOS screenshots that disappear before you can use them, VibeCap keeps captures in context. No accounts, no cloud dependency — runs entirely on your Mac.",
     "cta": "Download for macOS",
-    "ctaNote": "macOS 13.0+ · Apple Silicon · Free trial"
+    "ctaNote": "macOS 13.0+ · Apple Silicon · Free"
   },
   "problems": {
-    "title": "Why macOS Screenshots Slow Down Vibe Coding",
+    "title": "Why Screenshots Slow You Down",
     "subtitle": "macOS screenshots are powerful. But once you start vibe coding, they become friction.",
     "items": [
       {
@@ -34,7 +34,7 @@
     ]
   },
   "solution": {
-    "title": "How VibeCap Fixes the Screenshot-to-Editor Flow",
+    "title": "How VibeCap Works",
     "subtitle": "VibeCap is not a replacement for your editor. It fixes the moment before you talk to it.",
     "flow": {
       "step1": "Capture one or multiple screenshots",
@@ -49,13 +49,13 @@
     ]
   },
   "workflow": {
-    "title": "VibeCap Workflow — Screenshot to AI Editor in Seconds",
+    "title": "Screenshot to AI Editor in Seconds",
     "description": "VibeCap understands how vibe coding actually works: You don't want to explain everything. You want to show, then say a few words.",
     "highlight": "image(s) + text + destination editor",
     "note": "At the moment you're still in context."
   },
   "features": {
-    "title": "VibeCap Screenshot Features",
+    "title": "Features",
     "items": [
       {
         "title": "Fast capture",
@@ -100,7 +100,7 @@
     ]
   },
   "pricing": {
-    "title": "VibeCap Pricing",
+    "title": "Pricing",
     "subtitle": "Pick the plan that fits how you work.",
     "description": "No accounts. Cancel anytime for subscriptions.",
     "badgeMostPopular": "Most popular",
@@ -131,14 +131,13 @@
     "footnote": "No feature differences. Just different ways to pay."
   },
   "closing": {
-    "title": "Download VibeCap — Start Vibe Coding Faster",
-    "description": "VibeCap doesn't try to be smart. It tries to be reliable at the exact moment you need it — removing screenshot friction so you stay in flow.",
-    "highlight": "That's what makes vibe coding smoother.",
-    "note": "And that's why this small tool ends up making a big difference.",
-    "cta": "Download for macOS — Free Trial"
+    "title": "Get VibeCap",
+    "description": "It doesn't replace your editor or your AI tools. It simply removes friction from the capture → prompt → continue loop.",
+    "highlight": "From everyday AI tasks to vibe coding workflows, VibeCap helps your screenshots speak clearly to AI.",
+    "cta": "Download for macOS"
   },
   "faq": {
-    "title": "VibeCap — Frequently Asked Questions",
+    "title": "Frequently Asked Questions",
     "items": [
       {
         "question": "What is VibeCap?",
