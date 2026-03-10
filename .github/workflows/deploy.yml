@@ -27,8 +27,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install dependencies (retry once on failure)
+        run: npm ci || (echo "npm ci failed, retrying in 15s..." && sleep 15 && npm ci)
 
       - name: Build
         run: npm run build
