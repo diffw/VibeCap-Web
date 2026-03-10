@@ -43,8 +43,8 @@ export function Footer() {
             <a href="mailto:vibecap.dev@gmail.com" className="text-[10px] text-stone-400 hover:text-stone-600 transition-colors">
               vibecap.dev@gmail.com
             </a>
-            <time dateTime="2026-01-24" className="text-[10px] text-stone-300">
-              Updated Jan 2026
+            <time dateTime="2026-03-09" className="text-[10px] text-stone-300">
+              Updated Mar 2026
             </time>
           </div>
         </div>

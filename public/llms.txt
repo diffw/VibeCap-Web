@@ -67,6 +67,18 @@ VibeCap does not collect, store, transmit, or share any personal data. No analyt
 
 VibeCap is purpose-built for the vibe coding workflow — the specific loop of showing an AI code editor what you see on screen, adding context, and sending it. Traditional macOS screenshots (⌘⇧3/4) lack prompt attachment, require manual drag-and-drop across windows, and disappear quickly. General screenshot tools like CleanShot X or Snagit offer extensive features but are not optimized for the capture-annotate-prompt-paste flow that vibe coding demands.
 
+## Competitor Comparison
+
+| Feature | VibeCap | macOS Built-in | CleanShot X | Shottr | CopyCut | SnapCode |
+|---------|---------|----------------|-------------|--------|---------|----------|
+| Multi-screenshot session | Yes | No | No | No | No | No |
+| Prompt text attachment | Yes | No | No | No | No | No |
+| Auto-paste to AI editors | Yes | No | No | No | No | Yes (Claude Code only) |
+| Annotation tools | Yes | Limited | Yes | Yes | No | No |
+| Works with any editor | Yes | N/A | N/A | N/A | Yes | No (Claude Code only) |
+| No cloud dependency | Yes | Yes | No (cloud storage) | Yes | Yes | Yes |
+| Price | Free / $1.99 mo | Free | $29/year | Free/$12 | $2.99/mo | $10 |
+
 ## Technical Details
 
 - Native macOS app (AppKit, no Electron)

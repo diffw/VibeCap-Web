@@ -1,5 +1,5 @@
 import { Header, Footer } from '@/components';
-import { Hero, Problems, Solution, Workflow, Features, Pricing, FAQ, Closing } from '@/sections';
+import { Hero, Problems, Solution, Features, Pricing, FAQ, Closing } from '@/sections';
 import { SchemaOrg } from '@/components/SchemaOrg';
 
 export default function Home() {
@@ -11,7 +11,6 @@ export default function Home() {
         <Hero />
         <Problems />
         <Solution />
-        <Workflow />
         <Features />
         <Pricing />
         <FAQ />

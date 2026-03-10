@@ -49,6 +49,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
+### Environment Variables
+
+Create `.env.local` from `.env.example` and set:
+
+```bash
+NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+```
+
 ## Build
 
 ```bash

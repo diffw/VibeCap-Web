@@ -5,14 +5,14 @@
   },
   "hero": {
     "badge": "Built for vibe coding",
-    "headline": "Capture. Prompt. Copy & Paste.",
+    "headline": "VibeCap — Screenshot Tool for Vibe Coding",
     "subheadline": "A lightweight screenshot tool for macOS that helps you turn screenshots into AI-ready conversations — in one click.",
     "entityParagraph": "VibeCap is a macOS screenshot tool designed for vibe coding workflows. It lets developers capture screen areas, add annotations, write prompts, and send everything to AI-powered code editors like Cursor, Windsurf, and GitHub Copilot in a single copy-paste action. Unlike traditional macOS screenshots that disappear before you can use them, VibeCap keeps captures in context. No accounts, no cloud dependency — runs entirely on your Mac.",
     "cta": "Download for macOS",
     "ctaNote": "macOS 13.0+ · Apple Silicon · Free"
   },
   "problems": {
-    "title": "Why Screenshots Slow You Down",
+    "title": "Why macOS Screenshots Slow Down Vibe Coding",
     "subtitle": "macOS screenshots are powerful. But once you start vibe coding, they become friction.",
     "items": [
       {
@@ -55,7 +55,7 @@
     "note": "At the moment you're still in context."
   },
   "features": {
-    "title": "Features",
+    "title": "VibeCap Features",
     "items": [
       {
         "title": "Fast capture",
@@ -100,7 +100,7 @@
     ]
   },
   "pricing": {
-    "title": "Pricing",
+    "title": "VibeCap Pricing",
     "subtitle": "Pick the plan that fits how you work.",
     "description": "No accounts. Cancel anytime for subscriptions.",
     "badgeMostPopular": "Most popular",
@@ -131,13 +131,13 @@
     "footnote": "No feature differences. Just different ways to pay."
   },
   "closing": {
-    "title": "Get VibeCap",
+    "title": "Download VibeCap — Free on the Mac App Store",
     "description": "It doesn't replace your editor or your AI tools. It simply removes friction from the capture → prompt → continue loop.",
     "highlight": "From everyday AI tasks to vibe coding workflows, VibeCap helps your screenshots speak clearly to AI.",
     "cta": "Download for macOS"
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "VibeCap — Frequently Asked Questions",
     "items": [
       {
         "question": "What is VibeCap?",
@@ -178,6 +178,18 @@
       {
         "question": "Can VibeCap send multiple screenshots at once?",
         "answer": "Yes. VibeCap supports capturing multiple screenshots in a single session. Users can take several captures, annotate each one individually, then write a single prompt and send all images together to their editor in one paste action."
+      },
+      {
+        "question": "How does VibeCap compare to CopyCut and SnapCode?",
+        "answer": "VibeCap, CopyCut, and SnapCode all serve the AI coding screenshot workflow but differ in approach. CopyCut focuses on copying file paths for reference in prompts. SnapCode is built specifically for Claude Code integration. VibeCap combines multi-screenshot capture, visual annotations, prompt text attachment, and auto-paste into any AI editor in a single flow — no file path management required."
+      },
+      {
+        "question": "How does VibeCap compare to CleanShot X for AI coding workflows?",
+        "answer": "CleanShot X is a comprehensive screenshot and screen recording tool with 50+ features including cloud storage, scrolling capture, and GIF recording. However, it does not support prompt text attachment or auto-paste to AI code editors. VibeCap is purpose-built for the capture-annotate-prompt-paste workflow that AI-assisted coding demands, with no unnecessary features adding complexity."
+      },
+      {
+        "question": "Can VibeCap be used for non-coding tasks?",
+        "answer": "Yes. While VibeCap is optimized for AI code editors like Cursor, Windsurf, and GitHub Copilot, it works with any application that accepts pasted images. Users regularly use VibeCap to send annotated screenshots to ChatGPT, Claude, Slack, Discord, Notion, and other tools where visual context improves communication."
       }
     ]
   },

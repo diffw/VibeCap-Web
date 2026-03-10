@@ -13,22 +13,23 @@ export function Hero() {
       style={{ background: 'linear-gradient(180deg, #f5f3ee 0%, #fafaf8 100%)' }}
     >
       <div className="mx-auto w-[1024px]">
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 border border-stone-200 text-stone-500 text-sm mb-6">
-          <svg className="w-4 h-4 text-[#FF8D76]" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
-          </svg>
-          {t('badge')}
-        </div>
-
-        <h1 className="text-3xl md:text-4xl font-semibold text-stone-800 leading-tight mb-3 tracking-tight">
-          {t('headline')}
+        <h1 className="text-4xl md:text-5xl font-semibold text-stone-800 leading-tight mb-3 tracking-tight">
+          {(() => {
+            const parts = t('headline').split(' — ');
+            if (parts.length === 2) {
+              return (
+                <>
+                  {parts[0]}
+                  <br />
+                  {parts[1]}
+                </>
+              );
+            }
+            return t('headline');
+          })()}
         </h1>
         <p className="text-base md:text-lg text-stone-500 max-w-xl mx-auto mb-8 leading-relaxed">
           {t('subheadline')}
-        </p>
-        <p className="sr-only">
-          {t('entityParagraph')}
         </p>
 
         {/* CTA Button */}
