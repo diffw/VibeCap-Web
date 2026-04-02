@@ -1,0 +1,5 @@
+{
+  "task_class": "bugfix",
+  "status": "done",
+  "touches_production_code": true
+}

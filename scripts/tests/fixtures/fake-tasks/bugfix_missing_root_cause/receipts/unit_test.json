@@ -1,0 +1,10 @@
+{
+  "type": "unit_test",
+  "status": "passed",
+  "task_class": "bugfix",
+  "command": "xcodebuild test ...",
+  "result": {
+    "passed": 2,
+    "failed": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "root_cause",
+  "status": "completed",
+  "task_class": "bugfix",
+  "repro_steps": [
+    "open the app",
+    "trigger the failing action"
+  ],
+  "expected_behavior": "the action succeeds",
+  "actual_behavior": "the action crashes",
+  "signals": [
+    "stack trace points to nil access"
+  ],
+  "hypotheses_eliminated": [
+    "network timeout"
+  ],
+  "root_cause": "state was dereferenced before hydration completed",
+  "why_fix_hits_root_cause": "guard added before dereference and state is now initialized"
+}

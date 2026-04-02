@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "task_classes": {
+    "feature_code_change": {
+      "required_receipts": [
+        {
+          "name": "unit_test",
+          "waiver_allowed": false,
+          "pass_statuses": ["passed"]
+        }
+      ]
+    },
+    "bugfix": {
+      "required_receipts": [
+        {
+          "name": "root_cause",
+          "waiver_allowed": false,
+          "pass_statuses": ["completed"]
+        },
+        {
+          "name": "unit_test",
+          "waiver_allowed": false,
+          "pass_statuses": ["passed"]
+        }
+      ]
+    },
+    "metadata_only_change": {
+      "required_receipts": [
+        {
+          "name": "manual_review",
+          "waiver_allowed": true,
+          "pass_statuses": ["completed", "passed"]
+        }
+      ]
+    }
+  }
+}

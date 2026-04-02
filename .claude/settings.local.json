@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git:*)",
+      "Bash(grep -v \":0$\")",
+      "Bash(grep:*)",
+      "Bash(find /Users/diffwang/NWA/harness-coding -type f \\\\\\(-name *.mdc -o -name *.json -o -name *.yml -o -name *.yaml -o -name *.xml \\\\\\))",
+      "Bash(chmod +x /Users/diffwang/NWA/harness-coding/scripts/check-hardcoded-strings.sh)",
+      "WebFetch(domain:openai.com)",
+      "WebFetch(domain:github.com)",
+      "WebSearch"
+    ]
+  }
+}

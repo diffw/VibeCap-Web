@@ -1,0 +1,8 @@
+{
+  "id": "waiver-feature-001",
+  "gate": "unit_test",
+  "reason": "attempted bypass",
+  "risk": "untested feature regression risk",
+  "approved_by": "owner",
+  "expires_at": "2099-12-31"
+}
