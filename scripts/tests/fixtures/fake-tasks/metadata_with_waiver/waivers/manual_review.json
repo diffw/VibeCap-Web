@@ -1,8 +1,0 @@
-{
-  "id": "waiver-meta-001",
-  "gate": "manual_review",
-  "reason": "manual review intentionally deferred",
-  "risk": "metadata wording may remain unreviewed until next cycle",
-  "approved_by": "owner",
-  "expires_at": "2099-12-31"
-}
