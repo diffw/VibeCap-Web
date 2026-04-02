@@ -1,0 +1,3 @@
+[submodule "harness-coding"]
+	path = harness-coding
+	url = git@github.com:diffw/harness-coding.git
