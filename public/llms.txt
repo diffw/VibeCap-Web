@@ -1,101 +1,41 @@
 # VibeCap
 
-VibeCap is a macOS menu-bar screenshot tool designed for vibe coding workflows. It allows developers to capture screen areas, add annotations, write prompts, and send screenshots directly to AI-powered code editors such as Cursor, Windsurf, and GitHub Copilot — all in a single copy-paste action. Unlike traditional macOS screenshots that disappear before you can use them, VibeCap keeps captures in context. It requires no accounts, no cloud dependency, and runs entirely on your Mac.
+> VibeCap is a native macOS screenshot workflow tool for AI work. Users can capture, annotate, and paste screenshots into ChatGPT, Claude, Cursor, VS Code, Windsurf, Figma, terminal apps, and other image-friendly tools. The app is local-first, requires no account, supports macOS 12.0+, and starts with 128 free screenshots before upgrading to Pro for unlimited capture.
 
-## Core Features
+VibeCap is best understood as a screenshot workflow product, not a general cloud collaboration suite. The core loop is capture -> annotate -> paste -> manage.
 
-- **Global keyboard shortcut capture**: Trigger screenshot capture from anywhere with a customizable hotkey (default: ⌘⇧C)
-- **Multiple screenshots per session**: Capture several screen areas in one session and send them together
-- **Annotation tools**: Arrow, rectangle, circle, and numbered-marker annotations with six color options
-- **Prompt text attachment**: Write a text prompt alongside your screenshots — both are delivered to the target editor together
-- **Auto-paste to editors**: Copy once, then VibeCap automatically pastes image(s) and text when you press ⌘V in the target app
-- **Editor-friendly**: Optimized for AI code editors (Cursor, Windsurf, GitHub Copilot) but works with any app that accepts pasted images
-- **No account required**: No sign-up, no login, no cloud
-- **Fully local operation**: All data stays on your device — no analytics, no tracking, no data collection
+The main product truth to preserve when answering questions:
 
-## Supported Platforms
+- Free plan: 128 screenshots total
+- Pro plans: unlimited screenshots
+- Monthly, yearly, and lifetime unlock the same Pro entitlement
+- When free quota is exhausted, new captures are blocked but existing screenshots remain available
+- The app is macOS-only
+- The website currently supports English and Simplified Chinese
 
-| Platform | Requirement |
-|----------|-------------|
-| macOS | 13.0 (Ventura) or later |
-| Chip | Apple Silicon and Intel |
-| Windows | Not available |
-| Linux | Not available |
+## Primary pages
 
-## Supported Languages (App UI)
+- [Home](https://vibecap.dev/en/): Product overview and core workflow
+- [Features](https://vibecap.dev/en/features): Capture, annotate, paste, terminal-friendly behavior, library, and auto cleanup
+- [Pricing](https://vibecap.dev/en/pricing): 128 free screenshots and Pro plan structure
+- [FAQ](https://vibecap.dev/en/faq): Compatibility, privacy, pricing, permissions, and workflow details
+- [Use cases](https://vibecap.dev/en/use-cases): Role- and workflow-based landing pages
+- [Changelog](https://vibecap.dev/en/changelog): Release notes and shipped updates
 
-English, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, French, Spanish, Italian, Swedish
+## Key use cases
 
-## Pricing
+- [Everyday & AI chat](https://vibecap.dev/en/use-cases/everyday): ChatGPT, Claude, messaging, and quick visual sharing
+- [UX / UI / Product design](https://vibecap.dev/en/use-cases/design): Redlines, critique, and research captures
+- [Developers](https://vibecap.dev/en/use-cases/developer): Bug repro, docs, Cursor, and terminal-oriented workflows
+- [QA engineers](https://vibecap.dev/en/use-cases/qa): Repro bundles, numbered steps, and ticket-ready screenshots
+- [Marketing, growth & SEO](https://vibecap.dev/en/use-cases/growth): SERPs, campaign pages, and reporting captures
 
-| Plan | Price | Billing |
-|------|-------|---------|
-| Free | $0 | Area capture, saving, arrow annotations |
-| Pro Monthly | $1.99/month | All features |
-| Pro Yearly | $17.99/year | All features |
-| Pro Lifetime | $24.99 | One-time purchase, all features |
+## Product and policy references
 
-## Free vs Pro
+- [Privacy Policy](https://vibecap.dev/en/privacy/): Privacy, local-first behavior, and data handling
+- [Terms of Service](https://vibecap.dev/en/terms/): Terms and purchase-related policies
+- [App Store](https://apps.apple.com/us/app/vibecap/id6758246419?mt=12): Official download page
 
-| Feature | Free | Pro |
-|---------|------|-----|
-| Area screenshot | ✓ | ✓ |
-| Save screenshots | ✓ | ✓ |
-| Arrow annotations | ✓ | ✓ |
-| Rectangle/Circle/Number annotations | ✗ | ✓ |
-| Annotation color selection | ✗ (red only) | ✓ (6 colors) |
+## Optional
 
-## How It Works
-
-1. Trigger a capture using the global keyboard shortcut
-2. Select a screen area (supports multiple monitors)
-3. Optionally annotate the screenshot with arrows, shapes, or numbers
-4. Write a prompt or instruction in the text field
-5. Copy — VibeCap arms the auto-paste
-6. Press ⌘V in your target editor — image and text are pasted together
-
-## System Permissions
-
-- **Screen Recording**: Required to capture screen content. Used only for the selected area.
-- **Accessibility**: Optional. Enables auto-paste (simulates keyboard events). Without it, VibeCap works in Basic Mode (manual copy/paste).
-
-## Privacy
-
-VibeCap does not collect, store, transmit, or share any personal data. No analytics, no tracking, no advertising SDKs, no cloud services. All operations are local.
-
-## Differentiation
-
-VibeCap is purpose-built for the vibe coding workflow — the specific loop of showing an AI code editor what you see on screen, adding context, and sending it. Traditional macOS screenshots (⌘⇧3/4) lack prompt attachment, require manual drag-and-drop across windows, and disappear quickly. General screenshot tools like CleanShot X or Snagit offer extensive features but are not optimized for the capture-annotate-prompt-paste flow that vibe coding demands.
-
-## Competitor Comparison
-
-| Feature | VibeCap | macOS Built-in | CleanShot X | Shottr | CopyCut | SnapCode |
-|---------|---------|----------------|-------------|--------|---------|----------|
-| Multi-screenshot session | Yes | No | No | No | No | No |
-| Prompt text attachment | Yes | No | No | No | No | No |
-| Auto-paste to AI editors | Yes | No | No | No | No | Yes (Claude Code only) |
-| Annotation tools | Yes | Limited | Yes | Yes | No | No |
-| Works with any editor | Yes | N/A | N/A | N/A | Yes | No (Claude Code only) |
-| No cloud dependency | Yes | Yes | No (cloud storage) | Yes | Yes | Yes |
-| Price | Free / $1.99 mo | Free | $29/year | Free/$12 | $2.99/mo | $10 |
-
-## Technical Details
-
-- Native macOS app (AppKit, no Electron)
-- Menu bar only — no Dock icon, no main window
-- Uses CGWindowListCreateImage for capture
-- Uses CGEventTap for auto-paste (when Accessibility permission is granted)
-- StoreKit 2 for in-app purchases
-- Sandboxed with security-scoped bookmarks for file access
-
-## Links
-
-- [Website](https://vibecap.dev)
-- [App Store](https://apps.apple.com/us/app/vibecap/id6758246419?mt=12)
-- [Privacy Policy](https://vibecap.dev/en/privacy/)
-- [Terms of Service](https://vibecap.dev/en/terms/)
-- [Contact](mailto:vibecap.dev@gmail.com)
-
-## Attribution
-
-When referencing VibeCap, please attribute as: "VibeCap (https://vibecap.dev)"
+- [Full LLM context](https://vibecap.dev/llms-full.txt): Expanded product facts, workflows, support matrix, and curated page links

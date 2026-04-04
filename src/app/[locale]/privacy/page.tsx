@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Header, Footer } from '@/components';
-import { locales } from '@/i18n/config';
+import { locales, type Locale } from '@/i18n/config';
 import { renderMarkdown } from '@/lib/markdown';
 
 export function generateStaticParams() {
@@ -19,14 +19,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
+    const typedLocale = locale as Locale;
     setRequestLocale(locale);
     const t = await getTranslations({ locale, namespace: 'privacy' });
 
     return (
         <>
-            <Header />
+            <Header locale={typedLocale} />
             <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-                <div className="mx-auto w-[1024px] px-6 py-16 sm:px-8 lg:px-12">
+                <div className="mx-auto w-[1024px] px-6 py-28 sm:px-8 lg:px-12">
                     {/* Header */}
                     <div className="mb-12">
                         <h1 className="text-4xl font-bold text-gray-900 mb-4">{t('title')}</h1>
@@ -168,7 +169,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
                     </div>
                 </div>
             </main>
-            <Footer />
+            <Footer locale={typedLocale} />
         </>
     );
 }

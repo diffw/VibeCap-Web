@@ -56,7 +56,7 @@ export function Solution() {
                   </div>
                 </div>
                 <div className="rounded-lg bg-stone-50 p-4 border border-stone-100">
-                  <p className="text-xs text-stone-400 font-mono">// Write your prompt...</p>
+                  <p className="text-xs text-stone-400 font-mono">{'// Write your prompt...'}</p>
                 </div>
                 <div className="flex justify-end">
                   <div className="px-4 py-2 rounded-full bg-[#FF8D76] text-white text-sm font-medium">

@@ -1,0 +1,94 @@
+# VibeCap
+
+> VibeCap is a native macOS screenshot workflow tool for AI work. It helps users capture a screen region, annotate it, and paste it directly into ChatGPT, Claude, Cursor, VS Code, Windsurf, Figma, terminal apps, and other image-friendly tools. It is local-first, account-free, and positioned around fast screenshot handoff rather than cloud storage or team collaboration.
+
+Use this file when an agent or assistant needs fuller product context than the concise `/llms.txt` summary.
+
+Important product facts:
+
+- Category: native macOS screenshot workflow app
+- Core loop: capture -> annotate -> paste -> manage
+- Platform support: macOS 12.0 or later
+- Download: Mac App Store
+- Account requirement: none
+- Data model: local-first; screenshots stay on the user's Mac
+- Free experience: 128 screenshots total
+- Pro experience: unlimited screenshots
+- Paid plans: monthly, yearly, lifetime
+- Entitlement rule: all paid plans unlock the same Pro tier
+- Quota rule: only successful screenshots that enter the preview flow consume quota
+- Exhausted quota behavior: blocks new captures, but existing screenshots remain available in the library
+
+What VibeCap is optimized for:
+
+- Sending visual context to AI tools quickly
+- Annotating screenshots before sharing
+- Copying once and pasting into many destinations
+- Handling terminal paste differently from rich editors when needed
+- Keeping a screenshot library organized over time
+
+What VibeCap is not:
+
+- Not a cloud storage service
+- Not a generic team collaboration platform
+- Not a Windows or Linux screenshot tool
+- Not positioned around feature-gating annotation tools; the current monetization boundary is screenshot quota
+
+## Core product pages
+
+- [Home](https://vibecap.dev/en/): Product overview, hero positioning, workflow summary, works-with section, screenshot management, pricing preview, FAQ preview, and final CTA
+- [Features](https://vibecap.dev/en/features): Full feature breakdown for capture, annotate, paste anywhere, terminal-friendly behavior, screenshot library, keep, auto cleanup, and native experience
+- [Pricing](https://vibecap.dev/en/pricing): Free vs Pro explanation, plan options, reasons to upgrade, purchase FAQ, and App Store CTA
+- [FAQ](https://vibecap.dev/en/faq): Detailed answers about compatibility, privacy, quota behavior, restore purchases, permissions, and terminal paste
+- [Use cases](https://vibecap.dev/en/use-cases): Workflow hub linking to role- and industry-specific scenarios
+- [Changelog](https://vibecap.dev/en/changelog): Release history for shipped product updates
+
+## Core workflow references
+
+- [Features: Capture](https://vibecap.dev/en/features): Global shortcut capture, region selection, full-screen double tap, and multi-display support
+- [Features: Annotate](https://vibecap.dev/en/features): Arrows, circles, rectangles, and numbered markers
+- [Features: Paste Anywhere](https://vibecap.dev/en/features): Direct paste into AI tools and other apps that accept images
+- [Features: Terminal Friendly](https://vibecap.dev/en/features): Terminal, iTerm2, Warp, and file-path paste behavior
+- [Features: Screenshot Library](https://vibecap.dev/en/features): Browse, search, filter, and manage existing captures
+- [Features: Auto Cleanup](https://vibecap.dev/en/features): Cleanup schedules and kept-shot protection
+
+## High-value use cases
+
+- [Everyday & AI chat](https://vibecap.dev/en/use-cases/everyday): ChatGPT, Claude, messaging, and quick visual explanation workflows
+- [UX / UI / Product design](https://vibecap.dev/en/use-cases/design): Redlines, critique, research captures, and implementation review
+- [Developers](https://vibecap.dev/en/use-cases/developer): Bug repro, docs, Cursor, terminal-first workflows, and local file-path paste behavior
+- [Graphic & brand design](https://vibecap.dev/en/use-cases/brand): High-fidelity references, feedback loops, and curated visual libraries
+- [QA engineers](https://vibecap.dev/en/use-cases/qa): Repro bundles, numbered steps, and batch copy for tickets and test runs
+- [Customer success & support](https://vibecap.dev/en/use-cases/customer-success): Ticket and handoff workflows with annotated screenshots
+- [Sales & pre-sales](https://vibecap.dev/en/use-cases/sales): Demos, CRM states, and approval evidence
+- [Marketing, growth & SEO](https://vibecap.dev/en/use-cases/growth): SERPs, campaign pages, and reporting screenshots
+- [Training & technical writing](https://vibecap.dev/en/use-cases/training): SOPs, help-center images, and release-note visuals
+- [Compliance, legal & risk](https://vibecap.dev/en/use-cases/compliance): Point-in-time evidence and organized archives
+- [HR, finance & operations](https://vibecap.dev/en/use-cases/business-ops): Internal tool snapshots and back-office workflows
+- [Research, media & accessibility](https://vibecap.dev/en/use-cases/research-media): Editorial, research, and accessibility review captures
+- [PM, BA & delivery leads](https://vibecap.dev/en/use-cases/project-coordination): Project-state screenshots and coordination flows
+
+## Pricing and support facts
+
+- [Pricing](https://vibecap.dev/en/pricing): Current pricing page
+- [FAQ: How many free screenshots do I get?](https://vibecap.dev/en/faq): Free quota explanation
+- [FAQ: What happens when I use all 128 free screenshots?](https://vibecap.dev/en/faq): Quota exhaustion behavior
+- [FAQ: What does Pro unlock?](https://vibecap.dev/en/faq): Pro entitlement explanation
+- [FAQ: Do Monthly, Yearly, and Lifetime include the same Pro features?](https://vibecap.dev/en/faq): Plan parity
+- [FAQ: Are my existing screenshots still available after my free quota runs out?](https://vibecap.dev/en/faq): Library behavior after quota exhaustion
+
+## Privacy, permissions, and policy
+
+- [Privacy Policy](https://vibecap.dev/en/privacy/): Data handling and privacy model
+- [Terms of Service](https://vibecap.dev/en/terms/): Terms and purchase policies
+- [FAQ](https://vibecap.dev/en/faq): Screen Recording permission, Accessibility permission, restore purchases, and compatibility
+
+## Localized entry points
+
+- [English home](https://vibecap.dev/en/)
+- [简体中文首页](https://vibecap.dev/zh/)
+
+## Optional
+
+- [App Store listing](https://apps.apple.com/us/app/vibecap/id6758246419?mt=12): Official download and storefront details
+- [English changelog](https://vibecap.dev/en/changelog): Detailed release history

@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
           url: ogImageUrl,
           width: 1200,
           height: 630,
-          alt: 'VibeCap — Screenshot Tool for Vibe Coding on macOS',
+          alt: 'VibeCap — Screenshot workflow for AI on macOS',
         },
       ],
     },

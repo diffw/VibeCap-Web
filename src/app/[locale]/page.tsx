@@ -1,22 +1,33 @@
-import { Header, Footer } from '@/components';
-import { Hero, Problems, Solution, Features, Pricing, FAQ, Closing } from '@/sections';
-import { SchemaOrg } from '@/components/SchemaOrg';
+import type { Metadata } from 'next';
+import { Footer, Header } from '@/components';
+import { HomeSchemaOrg } from '@/components/SchemaOrg';
+import { HomeSections } from '@/components/marketing/MarketingSections';
+import type { Locale } from '@/i18n/config';
+import { getSiteContent } from '@/lib/site-content';
+import { buildMarketingMetadata } from '@/lib/site-metadata';
 
-export default function Home() {
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  return buildMarketingMetadata(locale as Locale, 'home');
+}
+
+export default async function Home({ params }: PageProps) {
+  const { locale } = await params;
+  const typedLocale = locale as Locale;
+  const content = getSiteContent(typedLocale);
+
   return (
     <>
-      <SchemaOrg />
-      <Header />
+      <HomeSchemaOrg locale={typedLocale} />
+      <Header locale={typedLocale} currentPage="home" />
       <main>
-        <Hero />
-        <Problems />
-        <Solution />
-        <Features />
-        <Pricing />
-        <FAQ />
-        <Closing />
+        <HomeSections locale={typedLocale} content={content} />
       </main>
-      <Footer />
+      <Footer locale={typedLocale} />
     </>
   );
 }
