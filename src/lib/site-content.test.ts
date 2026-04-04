@@ -13,6 +13,10 @@ describe('site content', () => {
     expect(en.home.pricingPreview.description).toContain('unlimited');
     expect(zh.home.pricingPreview.description).toContain('128');
     expect(zh.home.pricingPreview.description).toContain('无限');
+    expect(zh.home.pricingPreview.monthly.title).toBe('月付');
+    expect(zh.home.pricingPreview.annual.title).toBe('年付');
+    expect(zh.home.pricingPreview.lifetime.title).toBe('终身版');
+    expect(zh.home.management.description).toBe('');
   });
 
   it('keeps four core capability cards and twenty FAQ entries per locale', () => {
