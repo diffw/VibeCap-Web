@@ -370,11 +370,15 @@ export function HomeSections({ locale, content }: { locale: Locale; content: Sit
         <RevealOnView delay={40}>
           <SectionTitle
             title={
-              <>
-                Keep your screenshots useful,
-                <br />
-                not messy.
-              </>
+              locale === 'en' ? (
+                <>
+                  Keep your screenshots useful,
+                  <br />
+                  not messy.
+                </>
+              ) : (
+                content.home.management.title
+              )
             }
             description={content.home.management.description}
           />
